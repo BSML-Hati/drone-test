@@ -3,7 +3,7 @@ type: docker
 name: hello-world
 
 steps:
-  -  name: say-hello
-     image: alpine:latest
-     commands:
-       - echo "Tutut fils de flûte"
+  - name: print-message
+    image: alpine:latest
+    commands:
+      - echo "Tutut fils de flute"
